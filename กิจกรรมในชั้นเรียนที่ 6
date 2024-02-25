@@ -1,0 +1,18 @@
+# 1. กำหนดค่า A เป็น 50 และ B เป็น 100 และ c เป็นผลลัพธ์จากการเปรียบเทียบ A กับ B ว่า A มากกว่า B หรือไม่
+A = 50
+B = 100
+c = A > B
+
+F = True
+G = False
+
+print(F and G)  # False and False จึงได้ False
+print(G and F)  # False and False จึงได้ False
+print(G and G)  # False and False จึงได้ False
+print(F and F)  # True and True จึงได้ True
+
+Result:
+False
+False
+False
+True
